@@ -13,14 +13,14 @@
 
 ## 🧠 系统架构
 
-main
- ├─ main-orchestrator
- │    ├─ company-researcher
- │    ├─ contact-page-finder
- │    ├─ outreach-drafter
- │    └─ send-review-guard
- │
- └─ contact-url-updater
+main<br>
+ ├─ main-orchestrator<br>
+ │    ├─ company-researcher<br>
+ │    ├─ contact-page-finder<br>
+ │    ├─ outreach-drafter<br>
+ │    └─ send-review-guard<br>
+ │<br>
+ └─ contact-url-updater<br>
 
 ---
 
