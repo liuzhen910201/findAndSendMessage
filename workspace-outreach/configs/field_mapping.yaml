@@ -1,0 +1,59 @@
+# 输入字段（Excel → Agent）
+input_fields:
+  company_id: "company_id"
+  company_name: "company_name"
+  partnership_theme: "partnership_theme"
+  message_language: "message_language"
+  approval_status: "approval_status"
+  website_hint: "website_hint"
+  notes: "notes"
+
+# 输出字段（Agent → Excel）
+output_fields:
+  official_website: "official_website"
+  inquiry_page_url: "inquiry_page_url"
+  inquiry_page_type: "inquiry_page_type"
+  drafted_subject: "drafted_subject"
+  drafted_message: "drafted_message"
+  status: "status"
+  validation_reason: "validation_reason"
+  send_eligibility: "send_eligibility"
+  error_reason: "error_reason"
+  checked_at: "checked_at"
+  sent_at: "sent_at"
+
+# 状态定义
+status_values:
+  pending: "pending"
+  input_validated: "input_validated"
+  website_verified: "website_verified"
+  inquiry_found: "inquiry_found"
+  draft_ready: "draft_ready"
+  approved: "approved"
+  send_allowed: "send_allowed"
+  sent: "sent"
+  failed: "failed"
+  manual_check_required: "manual_check_required"
+
+# 审批状态
+approval_values:
+  not_reviewed: "not_reviewed"
+  approved_to_send: "approved_to_send"
+  rejected: "rejected"
+
+# 发送策略
+send_policy:
+  max_per_batch: 5
+  cooldown_seconds: 60
+  allow_duplicate: false
+  require_approval: true
+
+# 语言默认
+defaults:
+  message_language: "ja"
+  draft_version: "standard"
+
+# 日志
+logging:
+  enable: true
+  save_path: "logs/"

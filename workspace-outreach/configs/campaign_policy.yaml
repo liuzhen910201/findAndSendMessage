@@ -1,0 +1,6 @@
+campaign_id: dev-collab-001
+max_sends_per_batch: 5
+cooldown_seconds: 60
+require_explicit_approval: true
+allow_resend_same_campaign: false
+default_language: ja
