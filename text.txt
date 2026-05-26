@@ -1,6 +1,13 @@
-Read only the first 3 company names from:
-C:\Users\user\.openclaw\workspace\findAndSendMessage\workspace-outreach\input\companies.xlsx
+Run Python directly.
 
-Do not search.
-Do not draft messages.
-Only output the 3 company names.
+Read:
+workspace-outreach/output/companies.json
+
+For the first company:
+1. Search official website using Brave.
+2. Find inquiry page.
+3. Generate Japanese partnership message.
+4. Save results back into companies.json
+
+Do not explain.
+Execute directly with Python.
