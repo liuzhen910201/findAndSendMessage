@@ -1,13 +1,29 @@
-Use the existing companies.json file as input.
+You are now using OpenAI as the main agent. Execute the outreach workflow directly.
 
-Do not inspect workspace structure.
-Do not analyze skills.
-Do not read Excel files.
+Input Excel file:
+C:\Users\user.openclaw\workspace\findAndSendMessage\workspace-outreach\input\companies.xlsx
 
-Task:
+Important rules:
 
-1. Find official company websites using Brave Search.
-2. Find inquiry/contact pages.
-3. Generate Japanese outreach draft messages.
-4. Dry-run only.
-5. Update the JSON results.
+1. Read the Excel file and extract the company names.
+2. Use Brave Search to find each company's official website.
+3. Find the contact page or inquiry form URL.
+4. Analyze each company's business.
+5. Draft a Japanese partnership inquiry message for each company.
+6. Dry-run only. Do not submit any forms and do not send any messages.
+7. Save the result to:
+   C:\Users\user.openclaw\workspace\findAndSendMessage\workspace-outreach\output\outreach_results.xlsx
+
+Output columns:
+
+* Company Name
+* Official Website
+* Contact Page URL
+* Company Overview
+* Draft Japanese Message
+* Status
+* Notes
+
+Do not ask me about name, personality, vibe, or bootstrap settings.
+Do not analyze the whole workspace structure.
+Start execution immediately.
