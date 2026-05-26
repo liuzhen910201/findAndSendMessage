@@ -1,29 +1,6 @@
-You are now using OpenAI as the main agent. Execute the outreach workflow directly.
+Read only the first 3 company names from:
+C:\Users\user\.openclaw\workspace\findAndSendMessage\workspace-outreach\input\companies.xlsx
 
-Input Excel file:
-C:\Users\user.openclaw\workspace\findAndSendMessage\workspace-outreach\input\companies.xlsx
-
-Important rules:
-
-1. Read the Excel file and extract the company names.
-2. Use Brave Search to find each company's official website.
-3. Find the contact page or inquiry form URL.
-4. Analyze each company's business.
-5. Draft a Japanese partnership inquiry message for each company.
-6. Dry-run only. Do not submit any forms and do not send any messages.
-7. Save the result to:
-   C:\Users\user.openclaw\workspace\findAndSendMessage\workspace-outreach\output\outreach_results.xlsx
-
-Output columns:
-
-* Company Name
-* Official Website
-* Contact Page URL
-* Company Overview
-* Draft Japanese Message
-* Status
-* Notes
-
-Do not ask me about name, personality, vibe, or bootstrap settings.
-Do not analyze the whole workspace structure.
-Start execution immediately.
+Do not search.
+Do not draft messages.
+Only output the 3 company names.
