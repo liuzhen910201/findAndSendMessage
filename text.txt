@@ -1,0 +1,13 @@
+Use workspace-outreach/output/companies.json as the input.
+
+Do not read the Excel file again.
+
+For each company in the JSON:
+
+1. Use Brave Search to find the official website.
+2. Find the contact page or inquiry form.
+3. Analyze the company business.
+4. Draft a Japanese partnership inquiry message.
+5. Dry-run only. Do not submit forms or send messages.
+6. Update the result fields: official_website, contact_url, company_overview, draft_message, status.
+
