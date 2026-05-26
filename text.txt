@@ -1,13 +1,12 @@
-Run Python directly.
+Use the generated contact_url and draft_message.
 
-Read:
-workspace-outreach/output/companies.json
+Open the inquiry form.
+Fill the form.
+Actually submit it.
 
-For the first company:
-1. Search official website using Brave.
-2. Find inquiry page.
-3. Generate Japanese partnership message.
-4. Save results back into companies.json
+Process only the first company.
 
-Do not explain.
-Execute directly with Python.
+Output:
+- submitted: true/false
+- submission_result
+- screenshot_path
