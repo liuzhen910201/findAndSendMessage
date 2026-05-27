@@ -1,12 +1,20 @@
-Use the generated contact_url and draft_message.
+Read companies.json
 
-Open the inquiry form.
-Fill the form.
-Actually submit it.
+For each company:
+1. Find official website
+2. Find inquiry/contact page
+3. Analyze company business
+4. Generate Japanese partnership message
 
-Process only the first company.
+Update:
+- official_website
+- contact_url
+- company_overview
+- draft_message
+- status
 
-Output:
-- submitted: true/false
-- submission_result
-- screenshot_path
+DO NOT submit forms.
+DO NOT send messages.
+Dry-run only.
+
+Execute directly with Python.
