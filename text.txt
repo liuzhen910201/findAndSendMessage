@@ -1,12 +1,19 @@
-Read companies.json
+Read the Excel file directly:
 
-For each company:
-1. Find official website
-2. Find inquiry/contact page
-3. Analyze company business
-4. Generate Japanese partnership message
+C:\Users\user\.openclaw\workspace\findAndSendMessage\workspace-outreach\input\companies.xlsx
 
-Update:
+For each company in the Excel file:
+1. Extract the company name
+2. Find official website
+3. Find inquiry/contact page
+4. Analyze company business
+5. Generate Japanese partnership message
+
+Save results to:
+C:\Users\user\.openclaw\workspace\findAndSendMessage\workspace-outreach\output\outreach_results.xlsx
+
+Output columns:
+- company_name
 - official_website
 - contact_url
 - company_overview
