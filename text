@@ -2,7 +2,8 @@ Read the Excel file.
 
 From sheet 「リスト」:
 - read 「企業名」
-- search the company website
+- use ONLY Brave Search for web search
+- find the official company website
 - find the inquiry/contact page
 
 If found:
@@ -12,10 +13,12 @@ If not found:
 - write 「Formなし」 into 「ステータス」
 
 Read the message from sheet 「メッセージ」.
-Do NOT send anything.
-Do NOT submit forms.
 
-Create a new Excel file with:
+Do NOT send forms.
+Do NOT submit anything.
+
+Create a new Excel result file with:
 - 企業名
 - 問い合わせページURL
 - ステータス
+
