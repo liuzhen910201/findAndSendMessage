@@ -1,0 +1,21 @@
+Read the Excel file.
+
+From sheet 「リスト」:
+- read 「企業名」
+- search the company website
+- find the inquiry/contact page
+
+If found:
+- write 「済」 into 「ステータス」
+
+If not found:
+- write 「Formなし」 into 「ステータス」
+
+Read the message from sheet 「メッセージ」.
+Do NOT send anything.
+Do NOT submit forms.
+
+Create a new Excel file with:
+- 企業名
+- 問い合わせページURL
+- ステータス
